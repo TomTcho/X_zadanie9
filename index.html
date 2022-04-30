@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
-<!--     nav.main-navigation>ul.menu-list>li>a{header}+li>a{o nas}+li>a{kontakt}+li>a{footer} -->
+ <!-- <!--    <!--     nav.main-navigation>ul.menu-list>li>a{header}+li>a{o nas}+li>a{kontakt}+li>a{footer} -->
+
+   <!--  nav.main-navigation>ul.menu-list>(li>a{header})+(li>a{o nas})+(li>a{kontakt})+(li>a{footer}) -->
+
+   <!--  nav.main-navigation>ul.menu-list>(li>a[href="#main"]{header})+(li>a[href="#o-nas"]{o nas})+(li>a[href="#kontakt"]{kontakt})+(li>a[href="#footer"]{footer}) -->
+
+
+   <!--  <nav class="main-navigation">
+        <ul class="menu-list">
+            <li><a href="#main">header</a></li>
+            <li><a href="#o-nas">o nas</a></li>
+            <li><a href="#kontakt">kontakt</a></li>
+            <li><a href="#footer">footer</a></li>
+        </ul>
+    </nav>
+ -->
+
+<!--     nav.main-navigation>ul.list>li.item*4>a
+ -->
+<!--     <nav class="main-navigation">
+        <ul class="list">
+            <li class="item"><a href=""></a></li>
+            <li class="item"><a href=""></a></li>
+            <li class="item"><a href=""></a></li>
+            <li class="item"><a href=""></a></li>
+        </ul>
+    </nav>
+ --> 
 
     <nav>menu nawigacyjne
         <ul>poszczególne sekcje
             <li>
                 <a href="">header</a>
-                <li>
-                    <a href="">o nas</a>
-                    <li>
-                        <a href="">kontakt</a>
-                        <li><a href="">footer</a></li>
-                    </li>
-                </li>
+            <li>
+                <a href="">o nas</a>
+            <li>
+                <a href="">kontakt</a>
+            <li><a href="">footer</a></li>
+            </li>
+            </li>
             </li>
         </ul>
     </nav>
-<!-- Header#main -->
+    <!-- Header#main -->
 
-<Header id="main"></Header>
+    <Header id="main"></Header>
 
-<!-- Section#o-nas>p.tekst -->
-<Section id="o-nas">
-    <p class="tekst"></p>
-</Section>
+    <!-- Section#o-nas>p.tekst -->
+    <Section id="o-nas">
+        <p class="tekst"></p>
+    </Section>
 
-<!-- Section#kontakt -->
+    <!-- Section#kontakt -->
 
-<Section id="kontakt"></Section>
+    <Section id="kontakt"></Section>
 
-<Footer id="footer"></Footer>
+    <Footer id="footer"></Footer>
 
 </body>
+
 </html>
